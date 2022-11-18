@@ -2,7 +2,7 @@
 on Python’s comprehension syntax and the built-in sum function."""
 
 def sum_of_squares2(n):
-    return sum([k * k for k in range(0, n)])
+    return sum([k * k for k in range(n)])
 
 
 print(sum_of_squares2(4))
