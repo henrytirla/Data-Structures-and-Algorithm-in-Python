@@ -4,3 +4,11 @@ types are immutable, and that use of the = operator in this context causes
 the creation of a new instance (not the mutation of an existing instance).
 How is it still possible, then, that our implementation of scale changes the
 actual parameter sent by the caller?"""
+
+
+#Answer
+# Though numeric types are immutable, lists of numeric types are mutable: the values within
+# them can change. The list thus retains its identity while its contents change
+
+
+

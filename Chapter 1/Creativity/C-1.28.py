@@ -9,3 +9,10 @@ Euclidean norm of
 of a function named norm such that norm(v, p) returns the p-norm
 value of v and norm(v) returns the Euclidean norm of v. You may assume
 that v is a list of numbers."""
+
+
+def norm(v,p = 2):
+    a = 0
+    for i in v:
+        a += i**p
+    b = pow(a,1/p)
